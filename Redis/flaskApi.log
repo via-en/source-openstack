@@ -1,0 +1,113 @@
+2017/08/03 16:56:26 - DEBUG -  [receiver.py:29 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/03 17:04:00 - DEBUG -  [receiver.py:12 - <module>() ] - <config.Config object at 0x7f29bda3f710>
+2017/08/03 17:04:00 - DEBUG -  [receiver.py:28 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/03 17:04:13 - DEBUG -  [receiver.py:12 - <module>() ] - localhost
+2017/08/03 17:04:13 - DEBUG -  [receiver.py:28 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/03 17:15:06 - DEBUG -  [receiver.py:29 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/03 17:15:37 - DEBUG -  [receiver.py:29 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 09:44:44 - DEBUG -  [receiver.py:29 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 09:48:38 - DEBUG -  [receiver.py:27 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 09:48:58 - DEBUG -  [receiver.py:28 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 09:49:17 - DEBUG -  [receiver.py:26 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 10:31:05 - DEBUG -  [receiver.py:21 - callback() ] -  [x] Received b'Baaaah' from social
+2017/08/04 10:33:07 - DEBUG -  [receiver.py:27 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 10:33:22 - DEBUG -  [receiver.py:21 - callback() ] -  [x] Received b'Baaaah' from social
+2017/08/04 10:33:39 - DEBUG -  [receiver.py:27 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 10:34:20 - DEBUG -  [receiver_copy.py:27 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 10:34:39 - DEBUG -  [receiver_copy.py:21 - callback() ] -  [x] Received b'Baaaah' from social
+2017/08/04 10:34:39 - DEBUG -  [receiver.py:21 - callback() ] -  [x] Received b'Baaaah' from social
+2017/08/04 10:34:59 - DEBUG -  [receiver_copy.py:27 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 10:40:10 - DEBUG -  [receiver_copy.py:27 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 10:40:15 - DEBUG -  [receiver.py:27 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 11:21:45 - DEBUG -  [receiver_copy.py:21 - callback() ] -  [x] Received b'Baaaah' from social
+2017/08/04 11:21:45 - DEBUG -  [receiver.py:21 - callback() ] -  [x] Received b'Baaaah' from social
+2017/08/04 11:22:18 - DEBUG -  [receiver_copy.py:27 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 11:27:14 - DEBUG -  [receiver.py:27 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 11:27:22 - DEBUG -  [receiver.py:27 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 11:29:48 - DEBUG -  [receiver_copy.py:27 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 11:30:21 - DEBUG -  [receiver_copy.py:21 - callback() ] -  [x] Received b'Baaaah' from social
+2017/08/04 11:30:41 - DEBUG -  [receiver_copy.py:27 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 11:39:27 - DEBUG -  [receiver_copy.py:27 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 11:40:00 - DEBUG -  [receiver_copy.py:21 - callback() ] -  [x] Received b'Baaaah-0' from social
+2017/08/04 11:44:20 - DEBUG -  [receiver_copy.py:27 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 11:44:54 - DEBUG -  [receiver.py:27 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 11:59:07 - DEBUG -  [receiver.py:29 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 12:00:52 - DEBUG -  [receiver.py:22 - callback() ] -  [x] Received b'Baaaah-0' from social
+2017/08/04 12:00:52 - DEBUG -  [receiver.py:22 - callback() ] -  [x] Received b'Baaaah-1' from social
+2017/08/04 12:00:52 - DEBUG -  [receiver.py:22 - callback() ] -  [x] Received b'Baaaah-2' from social
+2017/08/04 12:01:18 - DEBUG -  [receiver.py:29 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 12:01:27 - DEBUG -  [receiver.py:22 - callback() ] -  [x] Received b'Baaaah-0' from social
+2017/08/04 12:01:43 - DEBUG -  [receiver.py:29 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 12:01:43 - DEBUG -  [receiver.py:22 - callback() ] -  [x] Received b'Baaaah-1' from social
+2017/08/04 12:01:55 - DEBUG -  [receiver.py:29 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 12:01:55 - DEBUG -  [receiver.py:22 - callback() ] -  [x] Received b'Baaaah-2' from social
+2017/08/04 12:02:08 - DEBUG -  [receiver.py:29 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 12:02:19 - DEBUG -  [receiver.py:22 - callback() ] -  [x] Received b'Baaaah-2' from social
+2017/08/04 12:34:37 - DEBUG -  [receiver.py:30 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/04 12:34:37 - DEBUG -  [receiver.py:23 - callback() ] -  [x] Received b'Baaaah-0' from social
+2017/08/04 12:34:37 - DEBUG -  [receiver.py:23 - callback() ] -  [x] Received b'Baaaah-1' from social
+2017/08/04 12:34:37 - DEBUG -  [receiver.py:23 - callback() ] -  [x] Received b'Baaaah-2' from social
+2017/08/04 12:34:37 - DEBUG -  [receiver.py:23 - callback() ] -  [x] Received b'Baaaah-0' from social
+2017/08/04 12:34:37 - DEBUG -  [receiver.py:23 - callback() ] -  [x] Received b'Baaaah-1' from social
+2017/08/04 12:34:37 - DEBUG -  [receiver.py:23 - callback() ] -  [x] Received b'Baaaah-2' from social
+2017/08/04 12:45:56 - DEBUG -  [receiver.py:23 - callback() ] -  [x] Received b'{"socialType": "1", "socialId": "1", "params": "1"}' from social
+2017/08/04 12:46:14 - DEBUG -  [receiver.py:23 - callback() ] -  [x] Received b'{"socialType": "1", "socialId": "1", "params": "1"}' from social
+2017/08/04 12:46:41 - DEBUG -  [receiver.py:23 - callback() ] -  [x] Received b'{"socialType": "1", "socialId": "1", "params": "1"}' from social
+2017/08/04 12:47:49 - DEBUG -  [receiver.py:23 - callback() ] -  [x] Received b'{"socialType": "1", "socialId": "1", "params": "1"}' from social
+2017/08/04 12:48:49 - DEBUG -  [receiver.py:23 - callback() ] -  [x] Received b'{"socialType": "1", "socialId": "1", "params": "1"}' from social
+2017/08/09 14:53:31 - DEBUG -  [receiver.py:32 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/08/09 14:53:44 - DEBUG -  [receiver.py:24 - callback() ] -  [x] Received b'598af7c8266e0d736316599a' from social
+2017/08/09 14:55:44 - DEBUG -  [receiver.py:24 - callback() ] -  [x] Received b'598af840266e0d7435ea7a5e' from social
+2017/08/09 16:23:07 - DEBUG -  [receiver.py:14 - <module>() ] - <config.Config object at 0x7fa90f435cf8>
+2017/08/09 16:23:25 - DEBUG -  [receiver.py:14 - <module>() ] - <config.Config object at 0x7efe19ed2cf8>
+2017/08/09 16:23:37 - DEBUG -  [receiver.py:14 - <module>() ] - {'host': 'localhost', 'port': 6379, 'password': 'None', 'keys': <config.Config object at 0x7f9bba89ff98>}
+2017/08/09 16:42:48 - DEBUG -  [receiver.py:14 - <module>() ] - <config.Config object at 0x7efd19c50cf8>
+2017/08/09 16:43:16 - DEBUG -  [receiver.py:14 - <module>() ] - {'host': 'localhost', 'port': 6379, 'password': 'None', 'keys': <config.Config object at 0x7f2be5746f98>}
+2017/08/09 16:43:39 - DEBUG -  [receiver.py:14 - <module>() ] - {'host': 'localhost', 'port': 6379, 'password': 'None', 'keys': <config.Config object at 0x7f701b90cf98>}
+2017/08/09 16:45:08 - DEBUG -  [receiver.py:14 - <module>() ] - {'host': 'localhost', 'port': 6379, 'password': 'None', 'keys': <config.Config object at 0x7f5d02b0df98>}
+2017/08/09 16:45:13 - DEBUG -  [receiver.py:24 - <module>() ] - 0
+2017/08/09 16:45:18 - DEBUG -  [receiver.py:24 - <module>() ] - 1
+2017/08/09 16:45:23 - DEBUG -  [receiver.py:24 - <module>() ] - 2
+2017/08/09 16:45:28 - DEBUG -  [receiver.py:24 - <module>() ] - 3
+2017/08/09 16:45:33 - DEBUG -  [receiver.py:24 - <module>() ] - 4
+2017/08/09 16:45:38 - DEBUG -  [receiver.py:24 - <module>() ] - 5
+2017/08/09 16:45:43 - DEBUG -  [receiver.py:24 - <module>() ] - 6
+2017/08/09 16:45:48 - DEBUG -  [receiver.py:24 - <module>() ] - 7
+2017/08/09 16:45:53 - DEBUG -  [receiver.py:24 - <module>() ] - 8
+2017/08/09 16:45:58 - DEBUG -  [receiver.py:24 - <module>() ] - 9
+2017/08/09 16:46:03 - DEBUG -  [receiver.py:24 - <module>() ] - 10
+2017/08/09 16:46:08 - DEBUG -  [receiver.py:24 - <module>() ] - 11
+2017/08/09 16:46:13 - DEBUG -  [receiver.py:24 - <module>() ] - 12
+2017/08/09 16:46:18 - DEBUG -  [receiver.py:24 - <module>() ] - 13
+2017/08/09 16:46:23 - DEBUG -  [receiver.py:24 - <module>() ] - 14
+2017/08/09 16:46:28 - DEBUG -  [receiver.py:24 - <module>() ] - 15
+2017/08/09 16:46:33 - DEBUG -  [receiver.py:24 - <module>() ] - 16
+2017/08/09 16:46:38 - DEBUG -  [receiver.py:24 - <module>() ] - 17
+2017/08/09 16:46:43 - DEBUG -  [receiver.py:24 - <module>() ] - 18
+2017/08/09 16:46:48 - DEBUG -  [receiver.py:24 - <module>() ] - 19
+2017/08/09 16:46:53 - DEBUG -  [receiver.py:24 - <module>() ] - 20
+2017/08/09 16:46:58 - DEBUG -  [receiver.py:24 - <module>() ] - 21
+2017/08/09 16:47:03 - DEBUG -  [receiver.py:24 - <module>() ] - 22
+2017/08/09 16:47:08 - DEBUG -  [receiver.py:24 - <module>() ] - 23
+2017/08/09 16:47:13 - DEBUG -  [receiver.py:24 - <module>() ] - 24
+2017/08/09 16:47:18 - DEBUG -  [receiver.py:24 - <module>() ] - 25
+2017/08/09 16:47:23 - DEBUG -  [receiver.py:24 - <module>() ] - 26
+2017/08/09 16:47:28 - DEBUG -  [receiver.py:24 - <module>() ] - 27
+2017/08/09 16:47:33 - DEBUG -  [receiver.py:24 - <module>() ] - 28
+2017/08/09 16:47:38 - DEBUG -  [receiver.py:24 - <module>() ] - 29
+2017/08/09 16:47:43 - DEBUG -  [receiver.py:24 - <module>() ] - 30
+2017/08/09 16:47:48 - DEBUG -  [receiver.py:24 - <module>() ] - 31
+2017/08/09 16:47:53 - DEBUG -  [receiver.py:24 - <module>() ] - 32
+2017/08/09 16:47:58 - DEBUG -  [receiver.py:24 - <module>() ] - 33
+2017/08/09 16:48:03 - DEBUG -  [receiver.py:24 - <module>() ] - 34
+2017/08/09 16:48:08 - DEBUG -  [receiver.py:24 - <module>() ] - 35
+2017/08/09 16:48:13 - DEBUG -  [receiver.py:24 - <module>() ] - 36
+2017/08/09 16:48:18 - DEBUG -  [receiver.py:24 - <module>() ] - 37
+2017/08/09 16:48:23 - DEBUG -  [receiver.py:24 - <module>() ] - 38
+2017/08/09 16:48:28 - DEBUG -  [receiver.py:24 - <module>() ] - 39
+2017/08/09 16:48:33 - DEBUG -  [receiver.py:24 - <module>() ] - 40
+2017/08/09 16:48:38 - DEBUG -  [receiver.py:24 - <module>() ] - 41
+2017/08/09 16:48:43 - DEBUG -  [receiver.py:24 - <module>() ] - 42
+2017/08/09 16:48:48 - DEBUG -  [receiver.py:24 - <module>() ] - 43
+2017/08/09 16:48:53 - DEBUG -  [receiver.py:24 - <module>() ] - 44
+2017/08/09 16:48:58 - DEBUG -  [receiver.py:24 - <module>() ] - 45

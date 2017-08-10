@@ -1,0 +1,13 @@
+version: 1
+
+test:
+  sender:
+    host: localhost
+    queue:
+      social: social
+
+test:
+  sender:
+    host: localhost
+    queue:
+      social: social

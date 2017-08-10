@@ -1,0 +1,13 @@
+version: 1
+
+test:
+  receiver:
+    host: localhost
+    queue:
+      social: social
+
+production:
+  receiver:
+    host: localhost
+    queue:
+      social: social

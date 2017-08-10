@@ -1,0 +1,651 @@
+2017/08/09 10:52:27 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 10:52:27 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 10:52:28 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 10:52:28 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 11:03:47 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 11:03:47 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 11:03:51 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 11:03:51 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 11:04:24 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 11:04:25 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 11:04:26 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 11:04:26 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 11:04:56 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/run.py', reloading
+2017/08/09 11:04:56 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 11:04:57 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 11:04:57 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 11:05:19 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/run.py', reloading
+2017/08/09 11:05:19 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 11:05:20 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 11:05:20 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 11:06:20 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/run.py', reloading
+2017/08/09 11:06:21 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 11:16:33 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 11:16:33 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 11:16:34 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 11:16:34 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 11:17:52 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "ping", "id": 1}
+2017/08/09 11:17:52 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "error": {"code": -32601, "message": "Method not found"}, "id": 1}
+2017/08/09 11:17:52 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 11:17:52] "POST /social/ HTTP/1.1" 404 -
+2017/08/09 11:18:26 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 11:18:26 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 11:18:29 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 11:18:29 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 11:18:29 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 11:18:29] "POST /social/ HTTP/1.1" 404 -
+2017/08/09 11:18:33 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 11:18:33] "POST /social/ HTTP/1.1" 404 -
+2017/08/09 11:18:44 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 11:18:45 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 11:18:46 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 11:18:46 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 11:19:20 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "ping", "id": 1}
+2017/08/09 11:19:20 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "error": {"code": -32601, "message": "Method not found"}, "id": 1}
+2017/08/09 11:19:20 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 11:19:20] "POST /social/ HTTP/1.1" 404 -
+2017/08/09 11:19:24 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "ping", "id": 1}
+2017/08/09 11:19:24 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "error": {"code": -32601, "message": "Method not found"}, "id": 1}
+2017/08/09 11:19:24 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 11:19:24] "POST /social/ HTTP/1.1" 404 -
+2017/08/09 11:19:30 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 11:19:30] "POST / HTTP/1.1" 404 -
+2017/08/09 11:19:57 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 11:19:57 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 11:19:59 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 11:19:59 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 11:20:03 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 11:20:03] "POST / HTTP/1.1" 404 -
+2017/08/09 11:20:38 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 11:20:38 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 11:20:40 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 11:20:40 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 11:20:59 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 11:20:59] "POST /social HTTP/1.1" 500 -
+2017/08/09 12:12:28 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 12:12:28 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 12:12:29 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 12:12:29 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 12:12:31 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "ping", "id": 1}
+2017/08/09 12:12:31 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "error": {"code": -32601, "message": "Method not found"}, "id": 1}
+2017/08/09 12:12:31 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 12:12:31] "POST /social HTTP/1.1" 404 -
+2017/08/09 12:13:40 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 12:13:41 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 12:13:58 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 12:13:58 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 12:13:59 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 12:13:59 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 12:14:04 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "ping", "id": 1}
+2017/08/09 12:14:04 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": "pong", "id": 1}
+2017/08/09 12:14:04 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 12:14:04] "POST /social HTTP/1.1" 200 -
+2017/08/09 12:15:43 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 12:15:43 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 12:15:45 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 12:15:45 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 12:15:55 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "ping", "id": 1}
+2017/08/09 12:15:55 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": {"ids": [1, 2, 3]}, "id": 1}
+2017/08/09 12:15:55 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 12:15:55] "POST /social HTTP/1.1" 200 -
+2017/08/09 12:16:36 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 12:16:37 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 12:16:38 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 12:16:38 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 12:21:07 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 12:21:07 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 12:49:38 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 12:49:38 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 12:49:39 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 12:49:39 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 12:49:53 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 12:49:53 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 12:49:54 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 12:49:54 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 12:50:01 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "ping", "id": 1}
+2017/08/09 12:50:01 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "error": {"code": -32601, "message": "Method not found"}, "id": 1}
+2017/08/09 12:50:01 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 12:50:01] "POST /social HTTP/1.1" 404 -
+2017/08/09 12:50:18 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "initialize", "id": 1}
+2017/08/09 12:50:18 - ERROR -  [log.py:19 - log_() ] - Traceback (most recent call last):
+  File "/home/lenovo/miniconda3/envs/flaskApi/lib/python3.6/site-packages/jsonrpcserver/request.py", line 42, in handle_exceptions
+    yield
+  File "/home/lenovo/miniconda3/envs/flaskApi/lib/python3.6/site-packages/jsonrpcserver/request.py", line 95, in call
+    result = callable_(*(self.args or []), **(self.kwargs or {}))
+  File "/projects-puma/docker/flask/project/social/routes.py", line 20, in initialize
+    user = mongo.db.users.find({'_id': 'ewrewrewr'})
+NameError: name 'mongo' is not defined
+
+2017/08/09 12:50:18 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "error": {"code": -32000, "message": "Server error"}, "id": 1}
+2017/08/09 12:50:18 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 12:50:18] "POST /social HTTP/1.1" 500 -
+2017/08/09 12:53:23 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/run.py', reloading
+2017/08/09 12:53:23 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 12:53:26 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 12:53:26 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 12:54:06 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 12:54:07 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 12:54:08 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 12:54:08 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 12:57:45 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/run.py', reloading
+2017/08/09 12:57:46 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 12:57:48 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 12:57:48 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:02:09 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 13:02:09 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:05:24 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 13:05:24 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:05:25 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:05:25 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:05:34 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "initialize", "id": 1}
+2017/08/09 13:05:34 - ERROR -  [log.py:19 - log_() ] - Traceback (most recent call last):
+  File "/home/lenovo/miniconda3/envs/flaskApi/lib/python3.6/site-packages/jsonrpcserver/request.py", line 42, in handle_exceptions
+    yield
+  File "/home/lenovo/miniconda3/envs/flaskApi/lib/python3.6/site-packages/jsonrpcserver/request.py", line 95, in call
+    result = callable_(*(self.args or []), **(self.kwargs or {}))
+  File "/projects-puma/docker/flask/project/social/routes.py", line 19, in initialize
+    user = mongo.db.users.find({'_id': 'ewrewrewr'})
+NameError: name 'mongo' is not defined
+
+2017/08/09 13:05:34 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "error": {"code": -32000, "message": "Server error"}, "id": 1}
+2017/08/09 13:05:34 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 13:05:34] "POST /social HTTP/1.1" 500 -
+2017/08/09 13:14:17 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 13:14:17 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:14:18 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:14:18 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:14:25 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "initialize", "id": 1}
+2017/08/09 13:14:25 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": {"ids": [1, 2, 3]}, "id": 1}
+2017/08/09 13:14:25 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 13:14:25] "POST /social HTTP/1.1" 200 -
+2017/08/09 13:15:50 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/run.py', reloading
+2017/08/09 13:15:50 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:15:52 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:15:52 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:16:12 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 13:16:12 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:16:13 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:16:13 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:16:16 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "initialize", "id": 1}
+2017/08/09 13:16:16 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": {"ids": [1, 2, 3]}, "id": 1}
+2017/08/09 13:16:16 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 13:16:16] "POST /social HTTP/1.1" 200 -
+2017/08/09 13:16:54 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 13:16:54 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:16:56 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:16:56 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:16:56 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "initialize", "id": 1}
+2017/08/09 13:16:56 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 13:16:56] "POST /social HTTP/1.1" 500 -
+2017/08/09 13:22:49 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 13:22:49 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:22:50 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:22:50 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:22:54 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "initialize", "id": 1}
+2017/08/09 13:22:54 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 13:22:54] "POST /social HTTP/1.1" 500 -
+2017/08/09 13:23:21 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 13:23:21 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:23:22 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:23:22 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:24:35 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 13:24:35 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:24:36 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:24:36 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:25:47 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 13:25:47 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:25:48 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:25:48 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:27:40 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 13:27:40 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:27:41 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:27:41 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:34:16 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 13:34:16 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:34:18 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:34:18 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:34:18 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "initialize", "id": 1}
+2017/08/09 13:34:18 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": [], "id": 1}
+2017/08/09 13:34:18 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 13:34:18] "POST /social HTTP/1.1" 200 -
+2017/08/09 13:36:37 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 13:36:37 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:36:39 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:36:39 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:37:25 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 13:37:25 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:37:27 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:37:27 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:38:25 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 13:38:25 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:38:26 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:38:26 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:38:34 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "initialize", "id": 1}
+2017/08/09 13:38:34 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": [], "id": 1}
+2017/08/09 13:38:34 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 13:38:34] "POST /social HTTP/1.1" 200 -
+2017/08/09 13:39:10 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 13:39:10 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:39:11 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:39:11 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:39:48 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "initialize", "id": 1}
+2017/08/09 13:39:48 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": [], "id": 1}
+2017/08/09 13:39:48 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 13:39:48] "POST /social HTTP/1.1" 200 -
+2017/08/09 13:40:36 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 13:40:36 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:40:37 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:40:37 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:40:52 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "initialize", "id": 1, "params": [1,2,2]}
+2017/08/09 13:40:52 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": [], "id": 1}
+2017/08/09 13:40:52 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 13:40:52] "POST /social HTTP/1.1" 200 -
+2017/08/09 13:41:24 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 13:41:24 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:41:25 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:41:25 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:41:47 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "initialize", "id": 1, "params": {"task":1, "settings":[1,2,2]}
+2017/08/09 13:41:47 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "error": {"code": -32700, "message": "Parse error"}, "id": null}
+2017/08/09 13:41:47 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 13:41:47] "POST /social HTTP/1.1" 400 -
+2017/08/09 13:42:06 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 13:42:06 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:42:08 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:42:08 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:42:33 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 13:42:33 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:42:35 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:42:35 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:42:35 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "method": "initialize", "id": 1, "params": {"task":1, "settings":[1,2,2]}
+2017/08/09 13:42:35 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "error": {"code": -32700, "message": "Parse error"}, "id": null}
+2017/08/09 13:42:35 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 13:42:35] "POST /social HTTP/1.1" 400 -
+2017/08/09 13:43:06 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "initialize", "params": {"subtrahend": 23, "minuend": 42}, "id": 3}
+2017/08/09 13:43:06 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": [], "id": 3}
+2017/08/09 13:43:06 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 13:43:06] "POST /social HTTP/1.1" 200 -
+2017/08/09 13:44:01 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 13:44:01 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:44:02 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:44:02 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:46:26 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/home/lenovo/miniconda3/envs/flaskApi/lib/python3.6/site-packages/gridfs/grid_file.py', reloading
+2017/08/09 13:46:26 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:46:28 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:46:28 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:54:10 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 13:54:10 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:54:12 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:54:12 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 13:59:30 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 13:59:31 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 13:59:32 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 13:59:32 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:00:43 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 14:00:43 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:00:44 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:00:44 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:01:46 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 14:01:46 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:15:02 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 14:15:02 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:15:03 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:15:03 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:15:59 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "initialize", "params": {"settings": 23}, "id": 3}
+2017/08/09 14:16:00 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 14:16:00] "POST /social HTTP/1.1" 500 -
+2017/08/09 14:16:36 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 14:16:36 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:16:37 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:16:37 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:16:38 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "initialize", "params": {"settings": 23}, "id": 3}
+2017/08/09 14:16:38 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 14:16:38] "POST /social HTTP/1.1" 500 -
+2017/08/09 14:24:35 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 14:24:35 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:24:37 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:24:37 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:27:57 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 14:27:57 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:27:58 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:27:58 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:30:15 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 14:30:15 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:30:18 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:30:18 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:30:18 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "initialize", "params": {"settings": 23}, "id": 3}
+2017/08/09 14:30:18 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": [], "id": 3}
+2017/08/09 14:30:18 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 14:30:18] "POST /social HTTP/1.1" 200 -
+2017/08/09 14:30:55 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 14:30:55 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:30:57 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:30:57 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:30:57 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "initialize", "params": {"settings": 23}, "id": 3}
+2017/08/09 14:30:57 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": [], "id": 3}
+2017/08/09 14:30:57 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 14:30:57] "POST /social HTTP/1.1" 200 -
+2017/08/09 14:31:26 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "initialize", "params": {"settings": 23}, "id": 3}
+2017/08/09 14:31:26 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": [], "id": 3}
+2017/08/09 14:31:26 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 14:31:26] "POST /social HTTP/1.1" 200 -
+2017/08/09 14:31:26 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 14:31:26 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:31:27 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:31:27 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:31:47 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 14:31:47 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:31:48 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:31:48 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:31:48 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "initialize", "params": {"settings": 23}, "id": 3}
+2017/08/09 14:31:48 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": [], "id": 3}
+2017/08/09 14:31:48 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 14:31:48] "POST /social HTTP/1.1" 200 -
+2017/08/09 14:32:18 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 14:32:18 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:32:20 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:32:20 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:32:20 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "initialize", "params": {"settings": 23}, "id": 3}
+2017/08/09 14:32:20 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": [], "id": 3}
+2017/08/09 14:32:20 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 14:32:20] "POST /social HTTP/1.1" 200 -
+2017/08/09 14:35:05 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 14:35:05 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:35:06 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:35:06 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:35:52 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 14:35:52 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:40:21 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 14:40:21 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:40:22 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:40:22 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:40:26 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "initialize", "params": {"settings": 23}, "id": 3}
+2017/08/09 14:40:26 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": [], "id": 3}
+2017/08/09 14:40:26 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 14:40:26] "POST /social HTTP/1.1" 200 -
+2017/08/09 14:40:40 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 14:40:40 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:40:45 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 14:40:45 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:40:46 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:40:46 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:40:53 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "initialize", "params": {"settings": 23}, "id": 3}
+2017/08/09 14:40:53 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 14:40:53] "POST /social HTTP/1.1" 500 -
+2017/08/09 14:41:25 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 14:41:25 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:41:26 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:41:26 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:41:32 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "initialize", "params": {"settings": 23}, "id": 3}
+2017/08/09 14:41:32 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": "{\"_id\": {\"$oid\": \"598af4ec266e0d70c6c93472\"}, \"settings\": 23}", "id": 3}
+2017/08/09 14:41:32 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 14:41:32] "POST /social HTTP/1.1" 200 -
+2017/08/09 14:42:13 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 14:42:13 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:42:14 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:42:14 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:42:25 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 14:42:25 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:42:26 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:42:26 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:48:23 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 14:48:23 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:48:26 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:48:26 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:53:22 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 14:53:22 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:53:23 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:53:23 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:53:44 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "initialize", "params": {"settings": 23}, "id": 3}
+2017/08/09 14:53:44 - DEBUG -  [select_connection.py:122 - _get_poller() ] - Using EPollPoller
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f49b4c15fc8>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f49b4c15f08>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f49b4bbf048>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Connection._on_connection_start of <pika.adapters.select_connection.SelectConnection object at 0x7f49b4c17cc0>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:53:44 - INFO -  [base_connection.py:212 - _create_and_connect_to_socket() ] - Connecting to 127.0.0.1:5672
+2017/08/09 14:53:44 - DEBUG -  [callback.py:220 - process() ] - Processing 0:Connection.Start
+2017/08/09 14:53:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:53:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:53:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Connection._on_connection_start of <pika.adapters.select_connection.SelectConnection object at 0x7f49b4c17cc0>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Connection._on_connection_start of <pika.adapters.select_connection.SelectConnection object at 0x7f49b4c17cc0>> for "0:Connection.Start"
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Connection._on_connection_tune of <pika.adapters.select_connection.SelectConnection object at 0x7f49b4c17cc0>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:220 - process() ] - Processing 0:Connection.Tune
+2017/08/09 14:53:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:53:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:53:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Connection._on_connection_tune of <pika.adapters.select_connection.SelectConnection object at 0x7f49b4c17cc0>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Connection._on_connection_tune of <pika.adapters.select_connection.SelectConnection object at 0x7f49b4c17cc0>> for "0:Connection.Tune"
+2017/08/09 14:53:44 - DEBUG -  [connection.py:1003 - _create_heartbeat_checker() ] - Creating a HeartbeatChecker: 60
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Connection._on_connection_open of <pika.adapters.select_connection.SelectConnection object at 0x7f49b4c17cc0>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:220 - process() ] - Processing 0:Connection.OpenOk
+2017/08/09 14:53:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:53:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:53:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Connection._on_connection_open of <pika.adapters.select_connection.SelectConnection object at 0x7f49b4c17cc0>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Connection._on_connection_open of <pika.adapters.select_connection.SelectConnection object at 0x7f49b4c17cc0>> for "0:Connection.OpenOk"
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Connection._on_connection_closed of <pika.adapters.select_connection.SelectConnection object at 0x7f49b4c17cc0>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:220 - process() ] - Processing 0:_on_connection_open
+2017/08/09 14:53:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f49b4c15f08>> for "0:_on_connection_open"
+2017/08/09 14:53:44 - DEBUG -  [connection.py:991 - _create_channel() ] - Creating channel 1
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Connection._on_channel_cleanup of <pika.adapters.select_connection.SelectConnection object at 0x7f49b4c17cc0>>, 'one_shot': True, 'only': <pika.channel.Channel object at 0x7f49b4c17e10>, 'arguments': None, 'calls': 1}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_getempty of <pika.channel.Channel object at 0x7f49b4c17e10>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_cancel of <pika.channel.Channel object at 0x7f49b4c17e10>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_flow of <pika.channel.Channel object at 0x7f49b4c17e10>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_close of <pika.channel.Channel object at 0x7f49b4c17e10>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:53:44 - DEBUG -  [channel.py:1130 - _rpc() ] - Adding in on_synchronous_complete callback
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f49b4c17e10>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:53:44 - DEBUG -  [channel.py:1135 - _rpc() ] - Adding passed in callback
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_openok of <pika.channel.Channel object at 0x7f49b4c17e10>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method BlockingChannel._on_consumer_cancelled_by_broker of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f49b4c17eb8>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f49b4bbf648>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f49b4bbf8c8>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f49b4bbf888>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:53:44 - INFO -  [blocking_connection.py:1099 - __init__() ] - Created channel=1
+2017/08/09 14:53:44 - DEBUG -  [callback.py:220 - process() ] - Processing 1:Channel.OpenOk
+2017/08/09 14:53:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:53:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:53:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f49b4c17e10>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:53:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:53:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Channel._on_openok of <pika.channel.Channel object at 0x7f49b4c17e10>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f49b4c17e10>> for "1:Channel.OpenOk"
+2017/08/09 14:53:44 - DEBUG -  [channel.py:1088 - _on_synchronous_complete() ] - 0 blocked frames
+2017/08/09 14:53:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Channel._on_openok of <pika.channel.Channel object at 0x7f49b4c17e10>> for "1:Channel.OpenOk"
+2017/08/09 14:53:44 - DEBUG -  [channel.py:1130 - _rpc() ] - Adding in on_synchronous_complete callback
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f49b4c17e10>>, 'one_shot': True, 'only': None, 'arguments': {'queue': 'social'}, 'calls': 1}
+2017/08/09 14:53:44 - DEBUG -  [channel.py:1135 - _rpc() ] - Adding passed in callback
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f49b4bbfa48>>, 'one_shot': True, 'only': None, 'arguments': {'queue': 'social'}, 'calls': 1}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:220 - process() ] - Processing 1:Queue.DeclareOk
+2017/08/09 14:53:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:53:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:53:44 - DEBUG -  [callback.py:350 - _dict_arguments_match() ] - Comparing {'queue': 'social'} to {'queue': 'social'}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f49b4c17e10>>, 'one_shot': True, 'only': None, 'arguments': {'queue': 'social'}, 'calls': 0}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:53:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:53:44 - DEBUG -  [callback.py:350 - _dict_arguments_match() ] - Comparing {'queue': 'social'} to {'queue': 'social'}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f49b4bbfa48>>, 'one_shot': True, 'only': None, 'arguments': {'queue': 'social'}, 'calls': 0}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f49b4c17e10>> for "1:Queue.DeclareOk"
+2017/08/09 14:53:44 - DEBUG -  [channel.py:1088 - _on_synchronous_complete() ] - 0 blocked frames
+2017/08/09 14:53:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f49b4bbfa48>> for "1:Queue.DeclareOk"
+2017/08/09 14:53:44 - INFO -  [blocking_connection.py:1330 - close() ] - Channel.close(0, Normal Shutdown)
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f49b4bbfa48>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:53:44 - INFO -  [channel.py:422 - close() ] - Channel.close(0, Normal Shutdown)
+2017/08/09 14:53:44 - DEBUG -  [channel.py:1130 - _rpc() ] - Adding in on_synchronous_complete callback
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f49b4c17e10>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:53:44 - DEBUG -  [channel.py:1135 - _rpc() ] - Adding passed in callback
+2017/08/09 14:53:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_closeok of <pika.channel.Channel object at 0x7f49b4c17e10>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:220 - process() ] - Processing 1:Channel.CloseOk
+2017/08/09 14:53:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:53:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:53:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f49b4bbfa48>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:53:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:53:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f49b4c17e10>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:53:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:53:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Channel._on_closeok of <pika.channel.Channel object at 0x7f49b4c17e10>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f49b4bbfa48>> for "1:Channel.CloseOk"
+2017/08/09 14:53:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f49b4c17e10>> for "1:Channel.CloseOk"
+2017/08/09 14:53:44 - DEBUG -  [channel.py:1088 - _on_synchronous_complete() ] - 0 blocked frames
+2017/08/09 14:53:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Channel._on_closeok of <pika.channel.Channel object at 0x7f49b4c17e10>> for "1:Channel.CloseOk"
+2017/08/09 14:53:44 - DEBUG -  [callback.py:220 - process() ] - Processing 1:_on_channel_cleanup
+2017/08/09 14:53:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:53:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:53:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Connection._on_channel_cleanup of <pika.adapters.select_connection.SelectConnection object at 0x7f49b4c17cc0>>, 'one_shot': True, 'only': <pika.channel.Channel object at 0x7f49b4c17e10>, 'arguments': None, 'calls': 0}
+2017/08/09 14:53:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Connection._on_channel_cleanup of <pika.adapters.select_connection.SelectConnection object at 0x7f49b4c17cc0>> for "1:_on_channel_cleanup"
+2017/08/09 14:53:44 - DEBUG -  [connection.py:1203 - _on_channel_cleanup() ] - Removed channel 1
+2017/08/09 14:53:44 - DEBUG -  [callback.py:181 - cleanup() ] - Clearing out '1' from the stack
+2017/08/09 14:53:44 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": "{\"_id\": {\"$oid\": \"598af7c8266e0d736316599a\"}, \"settings\": 23}", "id": 3}
+2017/08/09 14:53:44 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 14:53:44] "POST /social HTTP/1.1" 200 -
+2017/08/09 14:55:36 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 14:55:36 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:55:37 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:55:37 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 14:55:44 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "initialize", "params": {"settings": 23}, "id": 3}
+2017/08/09 14:55:44 - DEBUG -  [select_connection.py:122 - _get_poller() ] - Using EPollPoller
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f93d58fe7c8>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f93d58fe788>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f93d58fe808>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Connection._on_connection_start of <pika.adapters.select_connection.SelectConnection object at 0x7f93d59151d0>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:55:44 - INFO -  [base_connection.py:212 - _create_and_connect_to_socket() ] - Connecting to 127.0.0.1:5672
+2017/08/09 14:55:44 - DEBUG -  [callback.py:220 - process() ] - Processing 0:Connection.Start
+2017/08/09 14:55:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:55:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:55:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Connection._on_connection_start of <pika.adapters.select_connection.SelectConnection object at 0x7f93d59151d0>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Connection._on_connection_start of <pika.adapters.select_connection.SelectConnection object at 0x7f93d59151d0>> for "0:Connection.Start"
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Connection._on_connection_tune of <pika.adapters.select_connection.SelectConnection object at 0x7f93d59151d0>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:220 - process() ] - Processing 0:Connection.Tune
+2017/08/09 14:55:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:55:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:55:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Connection._on_connection_tune of <pika.adapters.select_connection.SelectConnection object at 0x7f93d59151d0>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Connection._on_connection_tune of <pika.adapters.select_connection.SelectConnection object at 0x7f93d59151d0>> for "0:Connection.Tune"
+2017/08/09 14:55:44 - DEBUG -  [connection.py:1003 - _create_heartbeat_checker() ] - Creating a HeartbeatChecker: 60
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Connection._on_connection_open of <pika.adapters.select_connection.SelectConnection object at 0x7f93d59151d0>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:220 - process() ] - Processing 0:Connection.OpenOk
+2017/08/09 14:55:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:55:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:55:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Connection._on_connection_open of <pika.adapters.select_connection.SelectConnection object at 0x7f93d59151d0>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Connection._on_connection_open of <pika.adapters.select_connection.SelectConnection object at 0x7f93d59151d0>> for "0:Connection.OpenOk"
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Connection._on_connection_closed of <pika.adapters.select_connection.SelectConnection object at 0x7f93d59151d0>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:220 - process() ] - Processing 0:_on_connection_open
+2017/08/09 14:55:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f93d58fe788>> for "0:_on_connection_open"
+2017/08/09 14:55:44 - DEBUG -  [connection.py:991 - _create_channel() ] - Creating channel 1
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Connection._on_channel_cleanup of <pika.adapters.select_connection.SelectConnection object at 0x7f93d59151d0>>, 'one_shot': True, 'only': <pika.channel.Channel object at 0x7f93da83e7b8>, 'arguments': None, 'calls': 1}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_getempty of <pika.channel.Channel object at 0x7f93da83e7b8>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_cancel of <pika.channel.Channel object at 0x7f93da83e7b8>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_flow of <pika.channel.Channel object at 0x7f93da83e7b8>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_close of <pika.channel.Channel object at 0x7f93da83e7b8>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:55:44 - DEBUG -  [channel.py:1130 - _rpc() ] - Adding in on_synchronous_complete callback
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f93da83e7b8>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:55:44 - DEBUG -  [channel.py:1135 - _rpc() ] - Adding passed in callback
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_openok of <pika.channel.Channel object at 0x7f93da83e7b8>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method BlockingChannel._on_consumer_cancelled_by_broker of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f93d5915320>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f93d58ae2c8>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f93d58ae408>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f93d58ae3c8>>, 'one_shot': False, 'only': None, 'arguments': None}
+2017/08/09 14:55:44 - INFO -  [blocking_connection.py:1099 - __init__() ] - Created channel=1
+2017/08/09 14:55:44 - DEBUG -  [callback.py:220 - process() ] - Processing 1:Channel.OpenOk
+2017/08/09 14:55:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:55:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:55:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f93da83e7b8>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:55:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:55:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Channel._on_openok of <pika.channel.Channel object at 0x7f93da83e7b8>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f93da83e7b8>> for "1:Channel.OpenOk"
+2017/08/09 14:55:44 - DEBUG -  [channel.py:1088 - _on_synchronous_complete() ] - 0 blocked frames
+2017/08/09 14:55:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Channel._on_openok of <pika.channel.Channel object at 0x7f93da83e7b8>> for "1:Channel.OpenOk"
+2017/08/09 14:55:44 - DEBUG -  [channel.py:1130 - _rpc() ] - Adding in on_synchronous_complete callback
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f93da83e7b8>>, 'one_shot': True, 'only': None, 'arguments': {'queue': 'social'}, 'calls': 1}
+2017/08/09 14:55:44 - DEBUG -  [channel.py:1135 - _rpc() ] - Adding passed in callback
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f93d58ae588>>, 'one_shot': True, 'only': None, 'arguments': {'queue': 'social'}, 'calls': 1}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:220 - process() ] - Processing 1:Queue.DeclareOk
+2017/08/09 14:55:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:55:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:55:44 - DEBUG -  [callback.py:350 - _dict_arguments_match() ] - Comparing {'queue': 'social'} to {'queue': 'social'}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f93da83e7b8>>, 'one_shot': True, 'only': None, 'arguments': {'queue': 'social'}, 'calls': 0}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:55:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:55:44 - DEBUG -  [callback.py:350 - _dict_arguments_match() ] - Comparing {'queue': 'social'} to {'queue': 'social'}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f93d58ae588>>, 'one_shot': True, 'only': None, 'arguments': {'queue': 'social'}, 'calls': 0}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f93da83e7b8>> for "1:Queue.DeclareOk"
+2017/08/09 14:55:44 - DEBUG -  [channel.py:1088 - _on_synchronous_complete() ] - 0 blocked frames
+2017/08/09 14:55:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f93d58ae588>> for "1:Queue.DeclareOk"
+2017/08/09 14:55:44 - INFO -  [blocking_connection.py:1330 - close() ] - Channel.close(0, Normal Shutdown)
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f93d58fedc8>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:55:44 - INFO -  [channel.py:422 - close() ] - Channel.close(0, Normal Shutdown)
+2017/08/09 14:55:44 - DEBUG -  [channel.py:1130 - _rpc() ] - Adding in on_synchronous_complete callback
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f93da83e7b8>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:55:44 - DEBUG -  [channel.py:1135 - _rpc() ] - Adding passed in callback
+2017/08/09 14:55:44 - DEBUG -  [callback.py:164 - add() ] - Added: {'callback': <bound method Channel._on_closeok of <pika.channel.Channel object at 0x7f93da83e7b8>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:220 - process() ] - Processing 1:Channel.CloseOk
+2017/08/09 14:55:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:55:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:55:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f93d58fedc8>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:55:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:55:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f93da83e7b8>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:55:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:55:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Channel._on_closeok of <pika.channel.Channel object at 0x7f93da83e7b8>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f93d58fedc8>> for "1:Channel.CloseOk"
+2017/08/09 14:55:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Channel._on_synchronous_complete of <pika.channel.Channel object at 0x7f93da83e7b8>> for "1:Channel.CloseOk"
+2017/08/09 14:55:44 - DEBUG -  [channel.py:1088 - _on_synchronous_complete() ] - 0 blocked frames
+2017/08/09 14:55:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Channel._on_closeok of <pika.channel.Channel object at 0x7f93da83e7b8>> for "1:Channel.CloseOk"
+2017/08/09 14:55:44 - DEBUG -  [callback.py:220 - process() ] - Processing 1:_on_channel_cleanup
+2017/08/09 14:55:44 - DEBUG -  [callback.py:404 - _use_one_shot_callback() ] - Processing use of oneshot callback
+2017/08/09 14:55:44 - DEBUG -  [callback.py:406 - _use_one_shot_callback() ] - 0 registered uses left
+2017/08/09 14:55:44 - DEBUG -  [callback.py:269 - remove() ] - Removing callback #0: {'callback': <bound method Connection._on_channel_cleanup of <pika.adapters.select_connection.SelectConnection object at 0x7f93d59151d0>>, 'one_shot': True, 'only': <pika.channel.Channel object at 0x7f93da83e7b8>, 'arguments': None, 'calls': 0}
+2017/08/09 14:55:44 - DEBUG -  [callback.py:234 - process() ] - Calling <bound method Connection._on_channel_cleanup of <pika.adapters.select_connection.SelectConnection object at 0x7f93d59151d0>> for "1:_on_channel_cleanup"
+2017/08/09 14:55:44 - DEBUG -  [connection.py:1203 - _on_channel_cleanup() ] - Removed channel 1
+2017/08/09 14:55:44 - DEBUG -  [callback.py:181 - cleanup() ] - Clearing out '1' from the stack
+2017/08/09 14:55:44 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": {"_id": "598af840266e0d7435ea7a5e", "settings": 23}, "id": 3}
+2017/08/09 14:55:44 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 14:55:44] "POST /social HTTP/1.1" 200 -
+2017/08/09 14:57:58 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 14:57:58 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 14:57:59 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 14:57:59 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 16:32:23 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 16:32:23 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 16:32:27 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 16:32:27 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 16:33:34 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 16:33:34 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 16:33:35 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 16:33:35 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 16:40:14 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 16:40:14 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 16:40:15 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 16:40:16 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 16:44:06 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "status", "params": {"_id": '598af840266e0d7435ea7a5e'}, "id": 3}
+2017/08/09 16:44:06 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "error": {"code": -32700, "message": "Parse error"}, "id": null}
+2017/08/09 16:44:06 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 16:44:06] "POST /social HTTP/1.1" 400 -
+2017/08/09 16:46:11 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 16:46:11 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 16:46:12 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 16:46:12 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 16:46:16 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "status", "params": {"_id": '598af840266e0d7435ea7a5e'}, "id": 3}
+2017/08/09 16:46:16 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "error": {"code": -32700, "message": "Parse error"}, "id": null}
+2017/08/09 16:46:16 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 16:46:16] "POST /social HTTP/1.1" 400 -
+2017/08/09 16:46:30 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "status", "params": {"_id": "598af840266e0d7435ea7a5e"}, "id": 3}
+2017/08/09 16:46:30 - ERROR -  [log.py:19 - log_() ] - Traceback (most recent call last):
+  File "/home/lenovo/miniconda3/envs/flaskApi/lib/python3.6/site-packages/jsonrpcserver/request.py", line 42, in handle_exceptions
+    yield
+  File "/home/lenovo/miniconda3/envs/flaskApi/lib/python3.6/site-packages/jsonrpcserver/request.py", line 95, in call
+    result = callable_(*(self.args or []), **(self.kwargs or {}))
+  File "/projects-puma/docker/flask/project/social/routes.py", line 44, in status
+    result = rd.get(_id)
+  File "/home/lenovo/miniconda3/envs/flaskApi/lib/python3.6/site-packages/redis/client.py", line 880, in get
+    return self.execute_command('GET', name)
+  File "/home/lenovo/miniconda3/envs/flaskApi/lib/python3.6/site-packages/redis/client.py", line 572, in execute_command
+    connection.send_command(*args)
+  File "/home/lenovo/miniconda3/envs/flaskApi/lib/python3.6/site-packages/redis/connection.py", line 563, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "/home/lenovo/miniconda3/envs/flaskApi/lib/python3.6/site-packages/redis/connection.py", line 538, in send_packed_command
+    self.connect()
+  File "/home/lenovo/miniconda3/envs/flaskApi/lib/python3.6/site-packages/redis/connection.py", line 446, in connect
+    self.on_connect()
+  File "/home/lenovo/miniconda3/envs/flaskApi/lib/python3.6/site-packages/redis/connection.py", line 514, in on_connect
+    if nativestr(self.read_response()) != 'OK':
+  File "/home/lenovo/miniconda3/envs/flaskApi/lib/python3.6/site-packages/redis/connection.py", line 582, in read_response
+    raise response
+redis.exceptions.ResponseError: Client sent AUTH, but no password is set
+
+2017/08/09 16:46:30 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "error": {"code": -32000, "message": "Server error"}, "id": 3}
+2017/08/09 16:46:30 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 16:46:30] "POST /social HTTP/1.1" 500 -
+2017/08/09 16:47:00 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 16:47:00 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 16:47:01 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 16:47:01 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 16:47:06 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "status", "params": {"_id": "598af840266e0d7435ea7a5e"}, "id": 3}
+2017/08/09 16:47:07 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 16:47:07] "POST /social HTTP/1.1" 500 -
+2017/08/09 16:48:11 - INFO -  [_internal.py:87 - _log() ] -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017/08/09 16:48:11 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 16:48:12 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 16:48:12 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146
+2017/08/09 16:48:13 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "status", "params": {"_id": "598af840266e0d7435ea7a5e"}, "id": 3}
+2017/08/09 16:48:13 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": "37", "id": 3}
+2017/08/09 16:48:13 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 16:48:13] "POST /social HTTP/1.1" 200 -
+2017/08/09 16:48:22 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "status", "params": {"_id": "598af840266e0d7435ea7a5e"}, "id": 3}
+2017/08/09 16:48:22 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": "39", "id": 3}
+2017/08/09 16:48:22 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 16:48:22] "POST /social HTTP/1.1" 200 -
+2017/08/09 16:48:24 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "status", "params": {"_id": "598af840266e0d7435ea7a5e"}, "id": 3}
+2017/08/09 16:48:24 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": "40", "id": 3}
+2017/08/09 16:48:24 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 16:48:24] "POST /social HTTP/1.1" 200 -
+2017/08/09 16:48:25 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "status", "params": {"_id": "598af840266e0d7435ea7a5e"}, "id": 3}
+2017/08/09 16:48:25 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": "40", "id": 3}
+2017/08/09 16:48:25 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 16:48:25] "POST /social HTTP/1.1" 200 -
+2017/08/09 16:48:27 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "status", "params": {"_id": "598af840266e0d7435ea7a5e"}, "id": 3}
+2017/08/09 16:48:27 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": "40", "id": 3}
+2017/08/09 16:48:27 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 16:48:27] "POST /social HTTP/1.1" 200 -
+2017/08/09 16:48:28 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "status", "params": {"_id": "598af840266e0d7435ea7a5e"}, "id": 3}
+2017/08/09 16:48:28 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": "40", "id": 3}
+2017/08/09 16:48:28 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 16:48:28] "POST /social HTTP/1.1" 200 -
+2017/08/09 16:48:29 - INFO -  [log.py:19 - log_() ] -  {"jsonrpc": "2.0", "method": "status", "params": {"_id": "598af840266e0d7435ea7a5e"}, "id": 3}
+2017/08/09 16:48:29 - INFO -  [log.py:19 - log_() ] - {"jsonrpc": "2.0", "result": "41", "id": 3}
+2017/08/09 16:48:29 - INFO -  [_internal.py:87 - _log() ] - 127.0.0.1 - - [09/Aug/2017 16:48:29] "POST /social HTTP/1.1" 200 -
+2017/08/09 16:51:10 - INFO -  [_internal.py:87 - _log() ] -  * Detected change in '/projects-puma/docker/flask/project/social/routes.py', reloading
+2017/08/09 16:51:10 - INFO -  [_internal.py:87 - _log() ] -  * Restarting with stat
+2017/08/09 16:51:11 - WARNING -  [_internal.py:87 - _log() ] -  * Debugger is active!
+2017/08/09 16:51:11 - INFO -  [_internal.py:87 - _log() ] -  * Debugger PIN: 115-726-146

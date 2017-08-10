@@ -1,0 +1,19 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+amqp==2.1.4
+click==6.7
+flask==0.12.2
+flask-login==0.4.0
+itsdangerous==0.24
+jinja2==2.9.6
+markupsafe==0.23
+pika==0.10.0
+pip==9.0.1
+pyyaml==3.12
+setuptools==27.2.0
+vine==1.1.4
+werkzeug==0.12.2
+wheel==0.29.0
+requests==2.18.3
+redis==3.2.0
