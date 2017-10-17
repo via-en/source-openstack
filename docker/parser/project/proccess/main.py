@@ -5,7 +5,7 @@ import json
 import redis
 from collections import namedtuple
 sys.path.append(os.path.join(os.path.dirname(__file__), "../"))
-
+from mongoengine import connect
 from helper.config import Config
 from proccess.proccessing import Process
 import logging.config
@@ -46,7 +46,10 @@ class RabbitTask:
                 port=task.redisPort,
                 password=task.redisPassword
             )
-        rd.set(str(task.ID), 2)
+        rd.set(task.ID, 2)
+        re = rd.get(task.ID)
+        self._logger.debug(re)
+
         ch.basic_ack(delivery_tag=method.delivery_tag)
 
         self._logger.debug(task)
@@ -54,7 +57,6 @@ class RabbitTask:
                   'task_id': task.ID,
                   'mongo': {'host_addr': task.mongoServerName,
                             'db_name': task.mongoDataBaseName,
-                            'collection': task.mongoCollectionName
                            }
                  }
 
@@ -63,7 +65,7 @@ class RabbitTask:
             process = Process(main_config=config, searcher=task.settings.searcher, params={'ID': task.ID})
             self._logger.debug('start processing')
             process.create_query(payload, pages=task.settings.count)
-            rd.set(str(task.ID), 3)
+            rd.set(task.ID, 3)
             self._logger.debug('end processing')
 
 

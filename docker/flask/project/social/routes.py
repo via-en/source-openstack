@@ -40,30 +40,31 @@ def initialize(*args, **kwargs):
     tasks = current_app.mongo.db.tasks
 
     task_object_id = tasks.insert({'settings': settings})
-    ID = tasks.find_one({'_id': task_object_id})
+    result = tasks.find_one({'_id': task_object_id})
+    ID = str(result['_id'])
 
-    task_result = {'ID': str(ID), 'mongoServerName': 'mongodb://localhost:27017',
+    task_result = {'ID': ID, 'mongoServerName': 'mongodb://localhost:27017',
                    'mongoDataBaseName': 'YandexData',
                    'mongoCollectionName': 'Snippets',
                    'redisHost': redis_params.host,
                    'redisPort': redis_params.port,
                    'redisPassword': redis_params.password
                    }
+
     task_result.update({'settings': settings})
     sc.send_and_close_channel(task_result)
-    rd.set(str(task_result['ID']), 1)
-    task_result['ID'] = str(task_result['ID'])
-    return task_result
+    rd.set(ID, 1)
+    return ID
 
 
 @methods.add
 def status(*args, **kwargs):
     _id = kwargs['ID']
-    #status = rd.set(_id, 1)
     status = rd.get(_id)
     current_app.logger.debug(status)
-
-    return status.decode("utf-8")
+    if status:
+        return {'ID': _id, 'status': status.decode("utf-8")}
+    return False
 
 
 class SocialItem(Resource):

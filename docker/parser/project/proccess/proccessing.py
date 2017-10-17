@@ -79,7 +79,7 @@ class Process:
                     item.snippet_number = index * (payload.get('p', 0) + 1)
                     item.search_query = payload['text']
                     item.uniq_id = str(uniq_id)
-                    item.task_id = str(self.params['ID'])
+                    item.task_id = [self.params['ID']]
                     item.save()
                     self._logger.debug("record saved with uniq_id {}".format(uniq_id))
                 else:
@@ -94,8 +94,8 @@ class Process:
         pages_result = {}
 
         try:
-            # #test
-            #
+            #test
+
             # buffer = open(os.path.join(CURRENT_DIR,"../", "test", "files", "result3.html"), "r", encoding='UTF-8')
             # pages_result = {'document': buffer}
 

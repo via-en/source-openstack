@@ -28,10 +28,11 @@ def post_get():
 
         r = requests.post('http://127.0.0.1:5000/social', json={"jsonrpc": "2.0", 'id': 123, 'method': 'status',
                                                                 'params': {
-                                                                    'ID': result['result']['ID']
+                                                                    'ID': result['result']
                                                                 }
                                                                 })
         logger.debug(r.json())
+        return r.json()
 
 
 def get(ID):
@@ -44,5 +45,5 @@ def get(ID):
 
 
 if __name__ == '__main__':
-    #post_get()
-    get('59e5c45d266e0d3bec0cdbb6')
+    result = post_get()
+    get(result['result']['ID'])

@@ -6,7 +6,7 @@ class Page(Document):
     title = StringField(required=True)
     date_modified = DateTimeField(default=datetime.datetime.now)
     date_create = DateTimeField(default=datetime.datetime.now)
-    task_id = StringField(required=True)
+    task_id = ListField(required=True)
     text = StringField(required=True)
     url = StringField(required=True)
     search_query = StringField(required=True)
