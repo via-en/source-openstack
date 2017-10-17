@@ -34,7 +34,7 @@ def post_get():
         logger.debug(r.json())
 
 
-def get(ID='59e489a4266e0d4bfa18a246'):
+def get(ID):
     r = requests.post('http://127.0.0.1:5000/social', json={"jsonrpc": "2.0", 'id': 123, 'method': 'status',
                                                            'params': {
                                                                'ID': ID
@@ -44,5 +44,5 @@ def get(ID='59e489a4266e0d4bfa18a246'):
 
 
 if __name__ == '__main__':
-    post_get()
-    #get('59e489a4266e0d4bfa18a246')
+    #post_get()
+    get('59e5c45d266e0d3bec0cdbb6')

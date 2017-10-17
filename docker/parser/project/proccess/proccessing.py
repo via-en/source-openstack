@@ -61,6 +61,7 @@ class Process:
             self._logger.debug(err)
 
     def create_records(self, payload):
+        self._logger.debug(self.params)
 
         connection_url = "{}/{}".format(self.main_config['mongo']['host_addr'].rstrip("/"),
                                         self.main_config['mongo']['db_name'])
@@ -70,20 +71,20 @@ class Process:
         for record in self.main_result:
             for index, d in enumerate(record['data'], 1):
                 uniq_id = hashlib.md5((d['href'] + '_' + d['snippet']).encode('utf-8')).hexdigest()
-                if not Page.objects(ID=uniq_id).count():
+                if not Page.objects(uniq_id=uniq_id).count():
                     item = Page()
                     item.title = d['title']
                     item.text = d['text']
                     item.url = d['href']
                     item.snippet_number = index * (payload.get('p', 0) + 1)
                     item.search_query = payload['text']
-                    item.uniq_id = uniq_id
-                    item.task_id = self.params['ID']
-                    #item.save()
-                    self._logger.debug("record saved with ID {}".format(uniq_id))
+                    item.uniq_id = str(uniq_id)
+                    item.task_id = str(self.params['ID'])
+                    item.save()
+                    self._logger.debug("record saved with uniq_id {}".format(uniq_id))
                 else:
                     Page.objects(ID=uniq_id).update_one(add_to_set__task_id=self.params['ID'])
-                    self._logger.debug("record update with ID {}".format(uniq_id))
+                    self._logger.debug("record update with uniq_id {}".format(uniq_id))
 
     def get_query(self, payload):
 
@@ -93,15 +94,15 @@ class Process:
         pages_result = {}
 
         try:
-            # test
-
-            buffer = open(os.path.join(CURRENT_DIR,"../", "test", "files", "result3.html"), "r", encoding='UTF-8')
-            pages_result = {'document': buffer}
+            # #test
+            #
+            # buffer = open(os.path.join(CURRENT_DIR,"../", "test", "files", "result3.html"), "r", encoding='UTF-8')
+            # pages_result = {'document': buffer}
 
             #production
 
-            # if self.sp:
-            #     pages_result = self.sp.load(url)
+            if self.sp:
+                pages_result = self.sp.load(url)
         except Exception as err:
             self._logger.error("Can't load page {} ".format(url))
             raise err
@@ -111,5 +112,3 @@ class Process:
                 parse.make()
                 pages_result.update(parse.result)
                 self.main_result.append(pages_result)
-
-

@@ -2,6 +2,7 @@ import os
 import sys
 import pika
 import json
+import redis
 from collections import namedtuple
 sys.path.append(os.path.join(os.path.dirname(__file__), "../"))
 
@@ -33,6 +34,19 @@ class RabbitTask:
         task = json.loads(body, object_hook=lambda d: namedtuple('task', d.keys())(*d.values()))
 
         self._logger.debug(" [x] Received {} from {}".format(task, method.routing_key))
+
+        if type(task.redisPassword) is None:
+
+            rd = redis.Redis(
+                host=task.redisHost,
+                port=task.redisPort)
+        else:
+            rd = redis.Redis(
+                host=task.redisHost,
+                port=task.redisPort,
+                password=task.redisPassword
+            )
+        rd.set(str(task.ID), 2)
         ch.basic_ack(delivery_tag=method.delivery_tag)
 
         self._logger.debug(task)
@@ -43,11 +57,13 @@ class RabbitTask:
                             'collection': task.mongoCollectionName
                            }
                  }
+
         for query in task.settings.search_q:
             payload = {'text': query}
             process = Process(main_config=config, searcher=task.settings.searcher, params={'ID': task.ID})
             self._logger.debug('start processing')
             process.create_query(payload, pages=task.settings.count)
+            rd.set(str(task.ID), 3)
             self._logger.debug('end processing')
 
 
