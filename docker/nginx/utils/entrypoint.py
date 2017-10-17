@@ -8,7 +8,7 @@ def run(app, *args):
 
 if __name__ =="__main__":
 
-    run('rm', '/etc/nginx/conf.d/default.conf')
+    run('rm', '-f', '/etc/nginx/conf.d/default.conf')
     out = 0
     while int(out) == 0:
         pdump = Popen(["nmap", "127.0.0.1"], stdout=PIPE)
