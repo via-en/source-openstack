@@ -111,3 +111,32 @@
 2017/08/09 16:48:48 - DEBUG -  [receiver.py:24 - <module>() ] - 43
 2017/08/09 16:48:53 - DEBUG -  [receiver.py:24 - <module>() ] - 44
 2017/08/09 16:48:58 - DEBUG -  [receiver.py:24 - <module>() ] - 45
+2017/10/16 11:12:35 - DEBUG -  [receiver.py:14 - <module>() ] - {'host': 'localhost', 'port': 6379, 'password': 'None', 'keys': <config.Config object at 0x7f4a9d69f588>}
+2017/10/16 12:20:37 - DEBUG -  [receiver.py:14 - <module>() ] - {'host': 'localhost', 'port': 6379, 'password': 'None', 'keys': <config.Config object at 0x7ffa8659f4e0>}
+2017/10/16 12:20:42 - DEBUG -  [receiver.py:24 - <module>() ] - 0
+2017/10/16 12:20:47 - DEBUG -  [receiver.py:24 - <module>() ] - 1
+2017/10/16 12:20:52 - DEBUG -  [receiver.py:24 - <module>() ] - 2
+2017/10/16 12:20:57 - DEBUG -  [receiver.py:24 - <module>() ] - 3
+2017/10/16 12:21:02 - DEBUG -  [receiver.py:24 - <module>() ] - 4
+2017/10/16 12:21:07 - DEBUG -  [receiver.py:24 - <module>() ] - 5
+2017/10/16 12:21:12 - DEBUG -  [receiver.py:24 - <module>() ] - 6
+2017/10/16 12:21:17 - DEBUG -  [receiver.py:24 - <module>() ] - 7
+2017/10/16 12:21:22 - DEBUG -  [receiver.py:24 - <module>() ] - 8
+2017/10/16 12:21:27 - DEBUG -  [receiver.py:24 - <module>() ] - 9
+2017/10/16 12:21:32 - DEBUG -  [receiver.py:24 - <module>() ] - 10
+2017/10/16 12:21:37 - DEBUG -  [receiver.py:24 - <module>() ] - 11
+2017/10/16 12:21:42 - DEBUG -  [receiver.py:24 - <module>() ] - 12
+2017/10/16 12:21:47 - DEBUG -  [receiver.py:24 - <module>() ] - 13
+2017/10/16 12:46:42 - DEBUG -  [receiver.py:14 - <module>() ] - {'host': 'localhost', 'port': 6379, 'password': 'None', 'keys': <config.Config object at 0x7ff13fecb4a8>}
+2017/10/16 12:46:47 - DEBUG -  [receiver.py:24 - <module>() ] - 0
+2017/10/16 12:46:52 - DEBUG -  [receiver.py:24 - <module>() ] - 1
+2017/10/16 12:46:57 - DEBUG -  [receiver.py:24 - <module>() ] - 2
+2017/10/16 12:47:02 - DEBUG -  [receiver.py:24 - <module>() ] - 3
+2017/10/16 12:47:07 - DEBUG -  [receiver.py:24 - <module>() ] - 4
+2017/10/16 12:47:12 - DEBUG -  [receiver.py:24 - <module>() ] - 5
+2017/10/16 12:47:17 - DEBUG -  [receiver.py:24 - <module>() ] - 6
+2017/10/16 12:47:22 - DEBUG -  [receiver.py:24 - <module>() ] - 7
+2017/10/16 12:47:27 - DEBUG -  [receiver.py:24 - <module>() ] - 8
+2017/10/16 12:47:32 - DEBUG -  [receiver.py:24 - <module>() ] - 9
+2017/10/16 12:47:37 - DEBUG -  [receiver.py:24 - <module>() ] - 10
+2017/10/16 12:47:42 - DEBUG -  [receiver.py:24 - <module>() ] - 11

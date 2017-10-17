@@ -28,6 +28,26 @@ services:
       - consul_1
     links:
       - consul_1
+  parser:
+    build: ./parser
+    container_name: "parser"
+    environment:
+     - LC_ALL=C.UTF-8
+     - LANG=C.UTF-8
+     - HANDLE=test
+     - CONSUL_HOST=consul_1
+    stdin_open: true
+    networks:
+      - app-tier
+    volumes:
+     - ./parser/project:/usr/src/app
+     - /etc/localtime:/etc/localtime:ro
+     - /etc/timezone:/etc/timezone:ro
+    tty: true
+    depends_on:
+      - consul_1
+    links:
+      - consul_1
 #  nginx:
 #    build: ./nginx
 #    ports:

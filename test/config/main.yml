@@ -1,0 +1,15 @@
+version: 1
+
+test:
+    host: localhost
+    port: 6379
+    password: None
+    keys:
+      social: social
+
+production:
+    host: localhost
+    port: 6379
+    password: None
+    keys:
+      social: social

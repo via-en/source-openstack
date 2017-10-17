@@ -18,7 +18,7 @@ sc = SenderSocial(rabbitmq_params)
 
 redis_params = Config.setup_main_config(os.path.join(config_path, 'redis.yml'))
 
-if not redis_params.password:
+if type(redis_params.password) is None:
 
     rd = redis.Redis(
             host=redis_params.host,
@@ -27,7 +27,8 @@ else:
     rd = redis.Redis(
         host=redis_params.host,
         port=redis_params.port,
-        password=redis_params.password)
+        password=redis_params.password
+    )
 
 
 @methods.add
@@ -37,17 +38,25 @@ def initialize(*args, **kwargs):
     settings = kwargs['settings']
 
     tasks = current_app.mongo.db.tasks
-    task_object_id = tasks.insert({'settings': settings})
-    task_result = tasks.find_one({'_id': task_object_id})
-    sc.send_and_close_channel(str(task_result['_id']))
-    task_result['_id'] = str(task_result['_id'])
+
+    #task_object_id = tasks.insert({'settings': settings})
+    #task_result = tasks.find_one({'_id': task_object_id})
+
+    task_result = {'ID': 1234, 'mongoServerName': 'mongodb://localhost:27017',
+                   'mongoDataBaseName': 'YandexData',
+                   'mongoCollectionName': 'Posts'
+                   }
+    task_result.update({'settings': settings})
+    sc.send_and_close_channel(task_result)
+    rd.set(str(task_result['ID']), 1)
+    task_result['ID'] = str(task_result['ID'])
     return task_result
 
 
 @methods.add
 def status(*args, **kwargs):
     current_app.logger.debug(kwargs)
-    _id = kwargs['_id']
+    _id = kwargs['ID']
     status = rd.get(_id)
     return status.decode("utf-8")
 

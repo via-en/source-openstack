@@ -58,3 +58,13 @@
 2017/08/09 14:53:31 - DEBUG -  [receiver.py:32 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
 2017/08/09 14:53:44 - DEBUG -  [receiver.py:24 - callback() ] -  [x] Received b'598af7c8266e0d736316599a' from social
 2017/08/09 14:55:44 - DEBUG -  [receiver.py:24 - callback() ] -  [x] Received b'598af840266e0d7435ea7a5e' from social
+2017/10/16 12:08:34 - DEBUG -  [receiver.py:32 - <module>() ] -  [*] Waiting for messages. To exit press CTRL+C
+2017/10/16 12:10:37 - DEBUG -  [receiver.py:24 - callback() ] -  [x] Received b'Baaaah-0' from social
+2017/10/16 12:10:37 - DEBUG -  [receiver.py:24 - callback() ] -  [x] Received b'Baaaah-1' from social
+2017/10/16 12:10:37 - DEBUG -  [receiver.py:24 - callback() ] -  [x] Received b'Baaaah-2' from social
+2017/10/16 12:38:35 - DEBUG -  [receiver.py:24 - callback() ] -  [x] Received b'59e47e1a266e0d3f8ccd828f' from social
+2017/10/16 12:49:36 - DEBUG -  [receiver.py:24 - callback() ] -  [x] Received b'59e480b0266e0d422de4364b' from social
+2017/10/16 12:49:54 - DEBUG -  [receiver.py:24 - callback() ] -  [x] Received b'59e480c2266e0d422de4364c' from social
+2017/10/16 12:51:19 - DEBUG -  [receiver.py:24 - callback() ] -  [x] Received b'59e48117266e0d42c1433cd6' from social
+2017/10/16 13:12:47 - DEBUG -  [receiver.py:24 - callback() ] -  [x] Received b'59e4861f266e0d49d5d8f1fd' from social
+2017/10/16 13:27:48 - DEBUG -  [receiver.py:24 - callback() ] -  [x] Received b'59e489a4266e0d4bfa18a246' from social

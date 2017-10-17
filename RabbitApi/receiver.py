@@ -25,6 +25,7 @@ def callback(ch, method, properties, body):
     ch.basic_ack(delivery_tag=method.delivery_tag)
 
 
+
 channel.basic_consume(callback,
                       queue=queue,
                       no_ack=False)

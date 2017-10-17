@@ -1,0 +1,6 @@
+version: 1
+
+receiver:
+  host: localhost
+  queue:
+    social: social

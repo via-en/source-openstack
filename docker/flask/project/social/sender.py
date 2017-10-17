@@ -2,7 +2,7 @@ import pika
 import os,sys
 import logging.config
 from social.config import Config
-
+import json
 
 class Sender:
 
@@ -35,13 +35,13 @@ class Sender:
     def send(self, severity, text):
         self.channel.queue_declare(queue=severity, durable=True)
         self.channel.basic_publish(exchange='',
-                              body=text,
+                              body=json.dumps(text),
                               routing_key=severity,
                               properties=pika.BasicProperties(
                                   delivery_mode=2, )
                               )
 
-    def send_and_close_connection(self, severity, text):
+    def send_and_close_connection(self, text, severity):
         self.send(severity, text)
         self.close_all()
 
@@ -62,10 +62,10 @@ class SenderSocial(Sender):
     def __init__(self, params):
         super().__init__(params)
 
-    def send_and_close_connection(self, text):
+    def send_and_close_connection(self, text, severity=None):
 
         severity = self.params.sender.queue.social
-        super().send_and_close_connection(severity, text)
+        super().send_and_close_connection(text, severity)
 
     def send_and_close_channel(self, text):
 
@@ -76,15 +76,15 @@ class SenderSocial(Sender):
 
 
 if __name__ == '__main__':
-    pass
-    # CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
-    # config_path = os.path.join(CURRENT_DIR,'..', 'config')
-    # logging.config.fileConfig(os.path.join(config_path, 'logging.conf'))
-    # logger = logging.getLogger(__name__)
-    # params = Config.setup_main_config(os.path.join(config_path, 'rabbitmq.yml'))
-    # # logger.debug(params.sender.exchange)
-    # # logger.debug(type(params.sender.exchange))
-    # sc = SenderSocial(params)
-    # sc.send_and_close_connection(text='Baaaah-0')
-    # sc.send_and_close_connection(text='Baaaah-1')
-    # sc.send_and_close_connection(text='Baaaah-2')
+    #pass
+    CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
+    config_path = os.path.join(CURRENT_DIR,'..', 'config')
+    logging.config.fileConfig(os.path.join(config_path, 'logging.conf'))
+    logger = logging.getLogger(__name__)
+    params = Config.setup_main_config(os.path.join(config_path, 'rabbitmq.yml'))
+    # logger.debug(params.sender.exchange)
+    # logger.debug(type(params.sender.exchange))
+    sc = SenderSocial(params)
+    sc.send_and_close_connection(text='Baaaah-0')
+    sc.send_and_close_connection(text='Baaaah-1')
+    sc.send_and_close_connection(text='Baaaah-2')
