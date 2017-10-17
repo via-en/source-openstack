@@ -17,7 +17,7 @@ class Parse:
         self.config = Config.setup_main_config(os.path.join(config_path, 'yandex.yml'))
         self.result = []
         self._cleaner = None
-        self._logger = logging.getLogger('crawler')
+        self._logger = logging.getLogger(__name__)
 
     def make(self):
         tree = fromstring(self.buffer, features="html.parser")
