@@ -15,7 +15,7 @@ login_manager.init_app(app)
 
 app.logger.logger_name = __name__
 app.config.update({
-    'MONGO_HOST': 'localhost',
+    'MONGO_HOST': '192.168.20.84',
     'MONGO_PORT': 27017,
     'MONGO_DBNAME': 'test',
 

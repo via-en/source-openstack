@@ -43,7 +43,7 @@ def initialize(*args, **kwargs):
     result = tasks.find_one({'_id': task_object_id})
     ID = str(result['_id'])
 
-    task_result = {'ID': ID, 'mongoServerName': 'mongodb://localhost:27017',
+    task_result = {'ID': ID, 'mongoServerName': 'mongodb://192.168.20.84:27017',
                    'mongoDataBaseName': 'YandexData',
                    'mongoCollectionName': 'Snippets',
                    'redisHost': redis_params.host,

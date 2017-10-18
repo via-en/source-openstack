@@ -88,9 +88,11 @@ class Process:
 
     def get_query(self, payload):
 
-        url_format = urlencode(payload, quote_via=quote_plus)
-
+        #url_format = urlencode(payload, quote_via=quote_plus)
+        self._logger.debug(payload)
+        url_format = urlencode(payload)
         url = "search/?{}".format(url_format)
+
         pages_result = {}
 
         try:
@@ -102,6 +104,7 @@ class Process:
             #production
 
             if self.sp:
+                self._logger.debug("sp")
                 pages_result = self.sp.load(url)
         except Exception as err:
             self._logger.error("Can't load page {} ".format(url))

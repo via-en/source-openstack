@@ -7,7 +7,7 @@ import logging.config
 from datetime import date
 sys.path.append(os.path.join(os.path.dirname(__file__), "../"))
 
-import proxy.pproxy
+from proxy.pproxy import ProxyManager
 
 CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
 config_path = os.path.join(CURRENT_DIR, '..', 'config')
@@ -35,8 +35,8 @@ class ConnectManager:
         self.freeDrivers = range(self.count)
 
     def create(self):
-
-        prx = proxy.pproxy.give_proxy()
+        manager = ProxyManager()
+        prx = manager.get_proxy()
 
         if prx is None:
             self._logger.error("Can't create proxy")

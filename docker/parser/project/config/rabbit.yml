@@ -1,6 +1,6 @@
 version: 1
 
 receiver:
-  host: localhost
+  host: 192.168.20.84
   queue:
     social: social

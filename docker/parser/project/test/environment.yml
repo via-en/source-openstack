@@ -1,0 +1,48 @@
+name: root
+channels:
+- <unknown>
+- defaults
+dependencies:
+- pyyaml=3.11=py34_0
+- readline=6.2=2
+- system=5.8=1
+- asn1crypto=0.22.0=py34_0
+- cffi=1.10.0=py34_0
+- conda=4.3.25=py34_0
+- conda-env=2.6.0=0
+- cryptography=1.8.1=py34_0
+- idna=2.6=py34_0
+- libffi=3.2.1=1
+- openssl=1.0.2l=0
+- packaging=16.8=py34_0
+- pip=9.0.1=py34_1
+- pycosat=0.6.2=py34_0
+- pycparser=2.18=py34_0
+- pyopenssl=17.0.0=py34_0
+- pyparsing=2.2.0=py34_0
+- python=3.4.5=0
+- requests=2.14.2=py34_0
+- ruamel_yaml=0.11.14=py34_1
+- setuptools=27.2.0=py34_0
+- six=1.10.0=py34_0
+- sqlite=3.13.0=0
+- tk=8.5.18=0
+- wheel=0.29.0=py34_0
+- xz=5.2.3=0
+- yaml=0.1.6=0
+- zlib=1.2.11=0
+- pip:
+  - beautifulsoup4==4.6.0
+  - bs4==0.0.1
+  - cssselect==1.0.1
+  - easyprocess==0.2.3
+  - lxml==4.1.0
+  - mongoengine==0.14.3
+  - pika==0.11.0
+  - pymongo==3.5.1
+  - python-consul==0.7.2
+  - pyvirtualdisplay==0.2.1
+  - redis==2.10.6
+  - selenium==3.6.0
+prefix: /home/lenovo
+

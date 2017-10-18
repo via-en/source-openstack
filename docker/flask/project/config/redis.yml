@@ -1,14 +1,14 @@
 version: 1
 
 test:
-    host: localhost
+    host: 192.168.20.84
     port: 6379
     password: null
     keys:
       social: social
 
 production:
-    host: localhost
+    host: 192.168.20.84
     port: 6379
     password: null
     keys:

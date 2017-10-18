@@ -1,9 +1,17 @@
 import requests
-import os
+import os, sys
 import lxml.html as html
 import time
 import logging.config
 import consul
+sys.path.append(os.path.join(os.path.dirname(__file__), "../"))
+from helper.config import Config
+
+CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
+config_path = os.path.join(CURRENT_DIR, '..', 'config')
+
+main_config = Config.setup_main_config(os.path.join(config_path, 'main.yml'))
+logging.config.fileConfig(os.path.join(config_path, 'logging.conf'))
 
 class ProxyManager(object):
 
@@ -19,13 +27,13 @@ class ProxyManager(object):
         }
 
         self.url = 'https://yandex.ru/search/?text=qwerty&lr=213'
+        self._logger = logging.getLogger(__name__)
         self.download_url = 'http://api.foxtools.ru/v2/Proxy.txt' \
                '?cp=UTF-8&lang=Auto&type=HTTPS&available=Yes&free=Yes&uptime=5&limit='
-
+        self._logger.debug("init")
         self.proxy_list_bad = []
         self.proxy_list_use = []
         self.proxy_list_clean = []
-
         self.CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
         self.scan_file = 'proxies.txt'
 
@@ -40,26 +48,32 @@ class ProxyManager(object):
             self.proxy_list_clean = []
             self.proxy_list_clean = self.download_proxy()
 
+        self._logger.debug("proxy list")
         proxy_list = list(self.proxy_list_clean)
 
+        self._logger.debug(proxy_list)
         for proxy in proxy_list:
+            self._logger.debug(proxy)
+            
             if not self.check_proxy(proxy):
                 self.proxy_list_clean.remove(proxy)
 
-        self._logger = logging.getLogger(__name__)
 
     def _read_proxies(self):
 
         return [line.rstrip('\n') for line in open(os.path.join(self.CURRENT_DIR, self.scan_file), 'r')]
 
     def get_proxy(self):
+       
+        self._logger.debug("start")
         proxy = None
         if self.proxy_list_clean:
             proxy = self.proxy_list_clean[0]
 
             self.proxy_list_clean.pop(0)
             self.proxy_list_use.append(proxy)
-
+            
+        self._logger.debug(proxy)
         return proxy
 
     def release_proxy(self, proxy):

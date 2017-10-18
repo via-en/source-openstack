@@ -31,7 +31,8 @@ class RabbitTask:
 
     def callback(self, ch, method, properties, body):
 
-        task = json.loads(body, object_hook=lambda d: namedtuple('task', d.keys())(*d.values()))
+        self._logger.debug(body)
+        task = json.loads(body.decode(), object_hook=lambda d: namedtuple('task', d.keys())(*d.values()))
 
         self._logger.debug(" [x] Received {} from {}".format(task, method.routing_key))
 

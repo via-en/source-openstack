@@ -28,37 +28,37 @@ services:
       - consul_1
     links:
       - consul_1
-#  parser:
-#    build: ./parser
-#    container_name: "parser"
-#    environment:
-#     - LC_ALL=C.UTF-8
-#     - LANG=C.UTF-8
-#     - HANDLE=test
-#     - CONSUL_HOST=consul_1
-#    stdin_open: true
-#    networks:
-#      - app-tier
-#    volumes:
-#     - ./parser/project:/usr/src/app
-#     - /etc/localtime:/etc/localtime:ro
-#     - /etc/timezone:/etc/timezone:ro
-#    tty: true
-#    depends_on:
-#      - consul_1
-#    links:
-#      - consul_1
-#  nginx:
-#    build: ./nginx
-#    ports:
-#     - "80:80"
-#     - "443:443"
-#    stdin_open: true
-#    networks:
-#      - app-tier
-#    volumes:
-#     - /etc/localtime:/etc/localtime:ro
-#     - /etc/timezone:/etc/timezone:ro
+  parser:
+    build: ./parser
+    container_name: "parser"
+    environment:
+     - LC_ALL=C.UTF-8
+     - LANG=C.UTF-8
+     - HANDLE=test
+     - CONSUL_HOST=consul_1
+    stdin_open: true
+    networks:
+      - app-tier
+    volumes:
+     - ./parser/project:/usr/src/app
+     - /etc/localtime:/etc/localtime:ro
+     - /etc/timezone:/etc/timezone:ro
+    tty: true
+    depends_on:
+      - consul_1
+    links:
+      - consul_1
+  nginx:
+    build: ./nginx
+    ports:
+     - "80:80"
+     - "443:443"
+    stdin_open: true
+    networks:
+      - app-tier
+    volumes:
+     - /etc/localtime:/etc/localtime:ro
+     - /etc/timezone:/etc/timezone:ro
   rabbitmq:
     image: 'rabbitmq:latest'
     container_name: "rabbit-mq"
@@ -91,9 +91,9 @@ services:
     networks:
       - app-tier
     ports:
-      - "8400:8400"
-      - "8500:8500"
-      - "8600:53"
+#      - "8400:8400"
+      - "8550:8500"
+#      - "8600:53"
     environment:
       - CONSUL_OPTS=-bootstrap-expect=3
   consul_2:
@@ -102,9 +102,9 @@ services:
     networks:
       - app-tier
     ports:
-      - "8402:8400"
-      - "8502:8500"
-      - "8602:8600"
+ #     - "8402:8400"
+      - "8552:8500"
+ #     - "8602:8600"
     links:
       - "consul_1"
     environment:
@@ -115,9 +115,9 @@ services:
     networks:
       - app-tier
     ports:
-      - "8403:8400"
-      - "8503:8500"
-      - "8603:8600"
+#     - "8403:8400"
+      - "8553:8500"
+ #     - "8603:8600"
     links:
       - "consul_1"
     environment:

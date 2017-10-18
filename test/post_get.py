@@ -16,7 +16,7 @@ def post_get():
                                                             'params': {
                                                                 'settings': {
                                                                     'searcher': 'https://yandex.ru',
-                                                                    'search_q': ['пластиковые окна'],
+                                                                    'search_q': ['Who are you, Joe Black'],
                                                                     'count': 1
                                                                     }
                                                                 }
@@ -41,9 +41,10 @@ def get(ID):
                                                                'ID': ID
                                                            }
                                                            })
-    logger.debug(r.json())
+    logger.debug(r.text)
 
 
 if __name__ == '__main__':
     result = post_get()
     get(result['result']['ID'])
+    #get('123')
